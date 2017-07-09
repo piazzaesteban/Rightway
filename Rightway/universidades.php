@@ -1,0 +1,235 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+
+	<title>Rightway</title>
+
+	<meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
+
+	<!--     Fonts and icons     -->
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" />
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" />
+
+	<!-- CSS Files -->
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="assets/css/material-kit.css" rel="stylesheet"/>
+
+	<!-- CSS Just for demo purpose, don't include it in your project -->
+	<link href="assets/css/demo.css" rel="stylesheet" />
+
+</head>
+
+<body class="components-page">
+	
+	<nav class="navbar navbar-fixed-top navbar-color-on-scroll navbar-transparent">
+    
+    	<div class="container">
+
+    		<div class="navbar-header">
+
+        		<a class="navbar-brand"><img src="logo_4.png" style="height:60px; width:230px; margin-top: -15px;"/></a>
+
+        	</div>
+
+        	<div class="collapse navbar-collapse" id="navigation-example">
+    
+        		<ul class="nav navbar-nav navbar-right">
+	
+					<li>
+    					<a href="pruebas.php">Pruebas</a>
+    				</li>
+
+    				<li>
+    					<a href="perfil.php">Resultados</a>
+    				</li>
+
+    				<li>
+    					<a href="universidades.php">Universidades</a>
+    				</li>
+
+					<li>
+    					<a href="cerrar_sesion.php" style="color: #FFFFFF; font-weight: bold;">Cerrar Sesión</a>
+    				</li>
+    
+        		</ul>
+
+        	</div>
+        	
+    
+    	</div>
+
+    
+    </nav>
+
+
+    <div class="wrapper">
+
+		<div class="header header-filter" style="background-image: url('assets/img/bg.jpg');">
+			
+			<div class="container">
+			
+				<div class="row">
+				
+					<div class="title text-center">	
+						<h4>Tu mejor match es:</h4>
+					
+						<h2 >Universidad Nacional Autónoma de México</h2>	
+
+						<h5>Ciudad: Ciudad de México </h5>
+							
+					</div>
+			
+				</div>
+		
+			</div>
+		
+		</div>
+
+		<div class="main main-raised">
+
+			<div class="profile-content">
+	    
+	            <div class="container">
+	    
+	                <div class="description text-center">
+
+	                	<div class="row" style="width:80%; margin-left:10%;">
+
+	                		<br><br>
+
+	                		<div class="col-md-4">
+
+	                			<h3>Características</h3>
+
+	                			<br>
+
+	                			<img src="http://arquitectura.unam.mx/uploads/8/1/1/0/8110907/_2634437_orig.png" class="img-rounded" style="height: 180px; display: block; margin: 0 auto;">
+
+	                			<br>
+
+	                			<h5>Tu match con este perfil es de 78%.</h5>		                			
+
+	                			<div class="progress">
+									<div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 78%;">
+									<span class="sr-only">30% Complete</span>
+									</div>
+								</div>
+
+	                			<p align="justify"><bold> Porcentaje admisión: </bold> 8-9%</p>
+
+	                			<p align="justify">Costo admisión: $0</p>
+
+	                			<p align="justify">Costo semestre: $0</p>
+
+	                			<p align="justify">Ayuda financiera: No</p>
+
+	                			<p align="justify">Dirección: Avenida Universidad 3000, Torre de RectorÌa, Piso 10, CDMX</p>
+
+								<p align="justify">Sitio web: <a href="https://www.unam.mx/">https://www.unam.mx/</a></p>
+
+
+	                		</div>	
+	                		
+	                		<div class="col-md-8">
+
+	                			<div style="width:90%; margin-left:5%;">
+
+		                			<h3>Egresados destacados</h3>
+
+
+
+		                			<img src="http://archivo.de10.com.mx/img/carlitos300.jpg" class="img-rounded" style="height: 200px; display: block; margin: 0 auto; margin-bottom: 25px; margin-top: 25px;">
+
+		                			<p align="justify">Nombre: Carlos Slim</p>
+
+	                				<p align="justify">Carrera: Ingeniería Civil</p>
+
+	                				<p align="justify">Descripción: Este material cuenta con derechos de propiedad intelectual. De no existir previa autorización por escrito de EL UNIVERSAL, Compañía Periodística Nacional S. A. de C. V., queda expresamente prohibida la publicación, retransmisión, distribución, venta, edición y cualquier otro uso de los contenidos (Incluyendo, pero no limitado a, contenido, texto, fotografías, audios, videos y logotipos). Si desea hacer uso de este contenido por favor comuníquese a la Agencia de Noticias de El Universal, al 57091313 extensión 2425. Muchas gracias. </p>
+
+		                			<br>
+
+								</div>
+
+	                		</div>	
+
+	                	</div>
+        		
+                		<br>
+                		<br>        
+	    
+	                </div>
+					
+	            </div>
+	        </div>
+		</div>
+
+    </div>
+    <footer class="footer">
+        <div class="container">
+            <nav class="pull-left">
+				<ul>
+					<li>
+						<a href="http://www.creative-tim.com">
+							Creative Tim
+						</a>
+					</li>
+					<li>
+						<a href="http://presentation.creative-tim.com">
+						   About Us
+						</a>
+					</li>
+					<li>
+						<a href="http://blog.creative-tim.com">
+						   Blog
+						</a>
+					</li>
+					<li>
+						<a href="http://www.creative-tim.com/license">
+							Licenses
+						</a>
+					</li>
+				</ul>
+            </nav>
+            <div class="copyright pull-right">
+                © 2016, made with <i class="fa fa-heart heart"></i> by Creative Tim
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+	<!--   Core JS Files   -->
+	<script src="assets/js/jquery.min.js" type="text/javascript"></script>
+	<script src="assets/js/bootstrap.min.js" type="text/javascript"></script>
+	<script src="assets/js/material.min.js"></script>
+
+	<!--  Plugin for the Sliders, full documentation here: http://refreshless.com/nouislider/ -->
+	<script src="assets/js/nouislider.min.js" type="text/javascript"></script>
+
+	<!--  Plugin for the Datepicker, full documentation here: http://www.eyecon.ro/bootstrap-datepicker/ -->
+	<script src="assets/js/bootstrap-datepicker.js" type="text/javascript"></script>
+
+	<!-- Control Center for Material Kit: activating the ripples, parallax effects, scripts from the example pages etc -->
+	<script src="assets/js/material-kit.js" type="text/javascript"></script>
+
+	<script type="text/javascript">
+
+		$().ready(function(){
+			// the body of this function is in assets/material-kit.js
+			materialKit.initSliders();
+            window_width = $(window).width();
+
+            if (window_width >= 992){
+                big_image = $('.wrapper > .header');
+
+				$(window).on('scroll', materialKitDemo.checkScrollForParallax);
+			}
+
+		});
+
+	</script>
+
+</html>
